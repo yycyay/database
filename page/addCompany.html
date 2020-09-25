@@ -1,0 +1,119 @@
+<div class="layui-form layuimini-form">
+    <div class="layui-form-item">
+        <label class="layui-form-label required">企业名称</label>
+        <div class="layui-input-block" >
+            <input id="cname" type="text" name="cname" lay-verify="required" lay-reqtext="企业不能为空" placeholder="请输入企业名称" value="" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label ">总部所在城市</label>
+        <div class="layui-input-block" >
+            <input id="city" type="text" name="city"  placeholder="请输入总部所在城市" value="" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label ">总部详细地址</label>
+        <div class="layui-input-block" >
+            <input id="address" type="text" name="address"  placeholder="请输入总部详细地址" value="" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label ">企业所属行业</label>
+        <div class="layui-input-block" >
+            <input id="trade" type="text" name="trade"  placeholder="企业所属行业" value="" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label ">法人代表</label>
+        <div class="layui-input-block" >
+            <input id="leader" type="text" name="leader" placeholder="请输入法人代表" value="" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label ">负责人电话</label>
+        <div class="layui-input-block" >
+            <input id="telephone" type="number" name="telephone"  placeholder="请输入负责人电话" value="" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label ">主要招聘岗位</label>
+        <div class="layui-input-block" >
+            <input id="job" type="text" name="job" placeholder="请输入主要招聘岗位" value="" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label ">上市时间</label>
+        <div class="layui-input-block" >
+            <input id="joinDate" type="text" name="joinDate" placeholder="请选择上市时间" value="" class="layui-input" lay-verify="required" lay-reqtext="入学时间不能为空" readonly>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label ">是否上市</label>
+        <div class="layui-input-block" >
+            <select id="status" name="status">
+                <option value="">--请选择是否上市--</option>
+                <option value="1">已上市</option>
+                <option value="2">未上市</option>
+            </select>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn layui-btn-normal" lay-submit lay-filter="saveBtn">提交企业信息</button>
+            <button id="reset" class="layui-btn layui-btn-primary" type="reset" ><i class="layui-icon layui-icon-refresh"></i>重置信息</button>
+        </div>
+    </div>
+</div>
+<script>
+    layui.use(['form'], function () {
+        var form = layui.form,
+            layer = layui.layer,
+            $ = layui.$;
+
+        $("#reset").click(function () {
+            $("#cname").val("");
+            $("#city").val("");
+            $("#address").val("");
+            $("#trade").val("");
+            $("#leader").val("");
+            $("#telephone").val("");
+            $("#job").val("");
+            $("#joinDate").val("");
+            $("#status").val("");
+            form.render();
+        });
+
+        //监听提交
+        form.on('submit(saveBtn)', function (data) {
+            var index = layer.alert(JSON.stringify(data.field), {
+                title: '最终的提交信息'
+            }, function () {
+
+                // 关闭弹出层
+                layer.close(index);
+
+                var iframeIndex = parent.layer.getFrameIndex(window.name);
+                parent.layer.close(iframeIndex);
+
+            });
+
+            return false;
+        });
+
+    });
+
+
+    // 年月日选择器（加入时间）
+    layui.use('laydate',function () {
+        var laydate = layui.laydate;
+        laydate.render({
+            elem: '#joinDate',
+            trigger: 'click'
+        });
+
+    })
+
+
+
+</script>
