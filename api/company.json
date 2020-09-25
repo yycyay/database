@@ -1,0 +1,106 @@
+{
+  "code": 0,
+  "msg": "",
+  "count": 10,
+  "data": [
+    {
+      "id": 1,
+      "cname": "华为公司",
+      "city": "深圳",
+      "trade": "通信行业",
+      "leader": "任正非",
+      "telephone": "13875757575",
+      "status": "已上市",
+      "job": "程序开发"
+
+    },
+    {
+      "id": 2,
+      "cname": "华为公司",
+      "city": "深圳",
+      "trade": "通信行业",
+      "leader": "任正非",
+      "telephone": "13875757575",
+      "status": "已上市",
+      "job": "程序开发"
+
+    },
+    {
+      "id": 3,
+      "cname": "华为公司",
+      "city": "深圳",
+      "trade": "通信行业",
+      "leader": "任正非",
+      "telephone": "13875757575",
+      "status": "已上市",
+      "job": "程序开发"
+
+    },
+    {
+      "id": 4,
+      "cname": "华为公司",
+      "city": "深圳",
+      "trade": "通信行业",
+      "leader": "任正非",
+      "telephone": "13875757575",
+      "status": "已上市",
+      "job": "程序开发"
+
+    },
+    {
+      "id": 5,
+      "cname": "华为公司",
+      "city": "深圳",
+      "trade": "通信行业",
+      "leader": "任正非",
+      "telephone": "13875757575",
+      "status": "已上市",
+      "job": "程序开发"
+
+    },
+    {
+      "id": 6,
+      "cname": "华为公司",
+      "city": "深圳",
+      "trade": "通信行业",
+      "leader": "任正非",
+      "telephone": "13875757575",
+      "status": "已上市",
+      "job": "程序开发"
+
+    },
+    {
+      "id": 7,
+      "cname": "华为公司",
+      "city": "深圳",
+      "trade": "通信行业",
+      "leader": "任正非",
+      "telephone": "13875757575",
+      "status": "合作中",
+      "job": "程序开发"
+
+    },
+    {
+      "id": 8,
+      "cname": "华为公司",
+      "city": "深圳",
+      "trade": "通信行业",
+      "leader": "任正非",
+      "telephone": "13875757575",
+      "status": "已上市",
+      "job": "程序开发"
+
+    },
+    {
+      "id": 9,
+      "cname": "华为公司",
+      "city": "深圳",
+      "trade": "通信行业",
+      "leader": "任正非",
+      "telephone": "13875757575",
+      "status": "已上市",
+      "job": "程序开发"
+
+    }
+  ]
+}

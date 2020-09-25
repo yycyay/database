@@ -1,0 +1,96 @@
+
+{
+  "code": 0,
+  "msg": "",
+  "count": 10,
+  "data": [
+    {
+      "id": 1,
+      "majorname": "计算机专业",
+      "cno": "1001",
+      "period": "2017",
+      "joinDate": "2017-09-01",
+      "classNum": 30,
+      "classTeacher": "小明",
+      "instructor": "小红"
+
+    },   {
+      "id": 2,
+      "majorname": "计算机专业",
+      "cno": "1001",
+      "period": "2017",
+      "joinDate": "2017-09-01",
+      "classNum": 30,
+      "classTeacher": "小明",
+      "instructor": "小红"
+
+    },   {
+      "id": 3,
+      "majorname": "计算机专业",
+      "cno": "1001",
+      "period": "2017",
+      "joinDate": "2017-09-01",
+      "classNum": 30,
+      "classTeacher": "小明",
+      "instructor": "小红"
+
+    },   {
+      "id": 4,
+      "majorname": "计算机专业",
+      "cno": "1001",
+      "period": "2017",
+      "joinDate": "2017-09-01",
+      "classNum": 30,
+      "classTeacher": "小明",
+      "instructor": "小红"
+
+    },   {
+      "id": 5,
+      "majorname": "计算机专业",
+      "cno": "1001",
+      "period": "2017",
+      "joinDate": "2017-09-01",
+      "classNum": 30,
+      "classTeacher": "小明",
+      "instructor": "小红"
+
+    },   {
+      "id": 6,
+      "majorname": "计算机专业",
+      "cno": "1001",
+      "period": "2017",
+      "joinDate": "2017-09-01",
+      "classNum": 30,
+      "classTeacher": "小明",
+      "instructor": "小红"
+
+    }, {
+      "id": 7,
+      "majorname": "计算机专业",
+      "cno": "1001",
+      "period": "2017",
+      "joinDate": "2017-09-01",
+      "classNum": 30,
+      "classTeacher": "小明",
+      "instructor": "小红"
+    }, {
+      "id": 8,
+      "majorname": "计算机专业",
+      "cno": "1001",
+      "period": "2017",
+      "joinDate": "2017-09-01",
+      "classNum": 30,
+      "classTeacher": "小明",
+      "instructor": "小红"
+    }, {
+      "id": 9,
+      "majorname": "计算机专业",
+      "cno": "1001",
+      "period": "2017",
+      "joinDate": "2017-09-01",
+      "classNum": 30,
+      "classTeacher": "小明",
+      "instructor": "小红"
+    }
+  ]
+}
